@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Awkward Client Meeting - Difficult Conversation",
+    "duration_seconds": 150,
+    "participant_count": 2,
+    "meeting_id": "edge_silence_001",
+    "date": "2024-01-15T14:00:00Z",
+    "language": "en",
+    "edge_case_type": "silence_gaps"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Thomas Anderson",
+      "role": "Account Manager"
+    },
+    {
+      "id": "speaker_2",
+      "name": "Margaret Foster",
+      "role": "Client Executive"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 7.3,
+      "text": "Thank you for meeting with me today, Margaret. I know this is a difficult conversation we need to have."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 32.1,
+      "end_time": 39.8,
+      "text": "Thomas, I'm honestly not sure where to begin. The project results were not what we expected."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 55.4,
+      "end_time": 68.2,
+      "text": "I understand your disappointment. We fell short of the metrics we promised, and I take full responsibility for that."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 85.7,
+      "end_time": 94.9,
+      "text": "It's not just about the metrics, Thomas. It's about the communication breakdown throughout the project."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 110.3,
+      "end_time": 123.6,
+      "text": "You're absolutely right. We should have been more transparent about the challenges we were facing early on."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 145.8,
+      "end_time": 148.2,
+      "text": "I need to think about our next steps."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Inconsistent Speaker References",
+    "duration_seconds": 30,
+    "participant_count": 1,
+    "meeting_id": "inconsistent_001",
+    "date": "2024-01-15T09:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "John Doe",
+      "role": "Test Speaker"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "This is from a valid speaker."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "This speaker_id doesn't exist in participants list."
+    },
+    {
+      "speaker_id": "unknown_speaker",
+      "start_time": 10.0,
+      "end_time": 15.0,
+      "text": "Another unknown speaker reference."
+    }
+  ]
+}

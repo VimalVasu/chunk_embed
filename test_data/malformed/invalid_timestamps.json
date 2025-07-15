@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "title": "Invalid Timestamps",
+    "duration_seconds": 60,
+    "participant_count": 1,
+    "meeting_id": "invalid_time_001",
+    "date": "2024-01-15T09:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Test Speaker",
+      "role": "Test Role"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": -5.0,
+      "end_time": 2.0,
+      "text": "Negative start time should be invalid."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 10.0,
+      "end_time": 8.0,
+      "text": "End time before start time should be invalid."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 15.0,
+      "end_time": 15.0,
+      "text": "Start and end time are the same - zero duration."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Heated Debate - Team Discussion",
+    "duration_seconds": 120,
+    "participant_count": 3,
+    "meeting_id": "edge_overlap_001",
+    "date": "2024-01-15T10:30:00Z",
+    "language": "en",
+    "edge_case_type": "overlapping_speech"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Amanda Smith",
+      "role": "Project Manager"
+    },
+    {
+      "id": "speaker_2",
+      "name": "Jason Lee",
+      "role": "Developer"
+    },
+    {
+      "id": "speaker_3",
+      "name": "Rachel Green",
+      "role": "Designer"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 8.5,
+      "text": "We need to discuss the deadline for this project. I think we can push it by two weeks."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 5.2,
+      "end_time": 12.8,
+      "text": "Wait, two weeks? That's not realistic given the scope changes we've had."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 9.1,
+      "end_time": 16.4,
+      "text": "I agree with Jason. The design requirements have completely changed since last month."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 13.7,
+      "end_time": 22.3,
+      "text": "But the client is expecting delivery by the original date. We can't just move it arbitrarily."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 18.9,
+      "end_time": 28.6,
+      "text": "Amanda, you're not listening. The scope has tripled. The original timeline is impossible now."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 24.1,
+      "end_time": 33.8,
+      "text": "Exactly! We need to be realistic about what we can deliver with quality."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 29.5,
+      "end_time": 38.2,
+      "text": "I understand your concerns, but we have contractual obligations to consider."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 35.0,
+      "end_time": 44.7,
+      "text": "Then we need to renegotiate the contract based on the new requirements."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 40.3,
+      "end_time": 49.9,
+      "text": "Or we deliver a reduced scope within the original timeline. That's a reasonable compromise."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 46.1,
+      "end_time": 55.8,
+      "text": "Both options require client approval. Let me schedule a meeting with them this week."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 51.4,
+      "end_time": 61.1,
+      "text": "Good idea. We should present both options clearly with pros and cons."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 57.2,
+      "end_time": 66.9,
+      "text": "I can prepare a visual comparison of the scope options for the client meeting."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 62.5,
+      "end_time": 72.2,
+      "text": "Perfect. Let's also prepare a detailed breakdown of the additional work required."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 68.8,
+      "end_time": 78.5,
+      "text": "I'll document all the technical implications of the scope changes."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 74.1,
+      "end_time": 83.8,
+      "text": "And I'll show how the design changes impact the user experience."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 79.9,
+      "end_time": 89.6,
+      "text": "Excellent. This collaborative approach should help us find the best solution."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 85.2,
+      "end_time": 94.9,
+      "text": "Agreed. As long as we're honest about the timeline implications."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 90.5,
+      "end_time": 100.2,
+      "text": "Absolutely. Quality should never be compromised for arbitrary deadlines."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 96.8,
+      "end_time": 106.5,
+      "text": "I think we all want the same thing - a successful project that meets client needs."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 102.1,
+      "end_time": 111.8,
+      "text": "Definitely. Let's make sure we present a united front to the client."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 107.4,
+      "end_time": 117.1,
+      "text": "Agreed. I'll start working on the presentation materials today."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "title": "Missing Required Fields",
+    "duration_seconds": 60
+  },
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "This file is missing the participants section entirely."
+    }
+  ]
+}

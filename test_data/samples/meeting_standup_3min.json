@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Daily Standup - Engineering Team",
+    "duration_seconds": 145,
+    "participant_count": 3,
+    "meeting_id": "standup_001",
+    "date": "2024-01-15T09:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Alice Johnson",
+      "role": "Engineering Manager"
+    },
+    {
+      "id": "speaker_2", 
+      "name": "Bob Chen",
+      "role": "Senior Developer"
+    },
+    {
+      "id": "speaker_3",
+      "name": "Carol Davis",
+      "role": "Frontend Developer"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Good morning everyone. Let's start our daily standup. Bob, would you like to go first?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 4.5,
+      "end_time": 15.8,
+      "text": "Sure, thanks Alice. Yesterday I finished the user authentication module and wrote unit tests for it. Today I'm planning to start working on the password reset functionality."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 16.1,
+      "end_time": 22.3,
+      "text": "No blockers at the moment, but I might need some clarification on the email template requirements later."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 22.6,
+      "end_time": 26.4,
+      "text": "Perfect. Just ping me when you need that clarification. Carol, how about you?"
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 26.8,
+      "end_time": 38.5,
+      "text": "I worked on the dashboard redesign yesterday and implemented the new navigation component. The responsive design is working well on mobile devices now."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 39.0,
+      "end_time": 48.2,
+      "text": "Today I'll be adding the search functionality to the dashboard and updating the CSS to match the new design system."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 48.6,
+      "end_time": 54.1,
+      "text": "I'm blocked on getting the search API endpoints from the backend team though."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 54.5,
+      "end_time": 62.8,
+      "text": "I'll follow up with the backend team after this meeting. They should have those endpoints ready by end of day."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 63.2,
+      "end_time": 76.9,
+      "text": "For my update, I spent yesterday reviewing the sprint planning feedback and updating our project timeline. I also had a one-on-one with the product manager about the upcoming features."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 77.3,
+      "end_time": 89.6,
+      "text": "Today I'll be working on the technical specification for the notification system and preparing for tomorrow's architecture review meeting."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 90.1,
+      "end_time": 96.3,
+      "text": "Alice, should we schedule a quick sync about the notification system? I have some ideas about the implementation."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 96.7,
+      "end_time": 103.2,
+      "text": "Absolutely. Let's chat after lunch today. I'll send you a calendar invite."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 103.6,
+      "end_time": 109.8,
+      "text": "Can I join that discussion too? The frontend integration might affect my dashboard work."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 110.2,
+      "end_time": 116.4,
+      "text": "Of course, Carol. I'll make it a team meeting. Any other questions or concerns?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 117.0,
+      "end_time": 123.5,
+      "text": "Just a quick reminder that the code review for the authentication module is ready when you both have time."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 124.0,
+      "end_time": 128.7,
+      "text": "I'll take a look at it this afternoon. Thanks for the heads up, Bob."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 129.2,
+      "end_time": 138.9,
+      "text": "Great. I think that covers everything for today. Let's keep the momentum going and have a productive day. Talk to you all tomorrow."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 139.4,
+      "end_time": 141.8,
+      "text": "Thanks Alice. Have a great day everyone."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 142.2,
+      "end_time": 144.1,
+      "text": "See you later. Bye!"
+    }
+  ]
+}

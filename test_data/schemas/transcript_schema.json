@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://reverbiaChunks.com/schemas/transcript.json",
+  "title": "Transcript Schema",
+  "description": "JSON Schema for meeting transcript data files",
+  "type": "object",
+  "required": ["metadata", "participants", "transcript"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Meeting metadata and general information",
+      "required": ["title", "duration_seconds", "participant_count", "meeting_id", "date", "language"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Human-readable title of the meeting",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "duration_seconds": {
+          "type": "number",
+          "description": "Total duration of the meeting in seconds",
+          "minimum": 0,
+          "maximum": 86400
+        },
+        "participant_count": {
+          "type": "integer",
+          "description": "Number of participants in the meeting",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "meeting_id": {
+          "type": "string",
+          "description": "Unique identifier for the meeting",
+          "minLength": 1,
+          "maxLength": 255,
+          "pattern": "^[a-zA-Z0-9_-]+$"
+        },
+        "date": {
+          "type": "string",
+          "description": "ISO 8601 formatted date and time of the meeting",
+          "format": "date-time"
+        },
+        "language": {
+          "type": "string",
+          "description": "Primary language of the meeting transcript",
+          "minLength": 2,
+          "maxLength": 10,
+          "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+        },
+        "edge_case_type": {
+          "type": "string",
+          "description": "Optional field to specify edge case type for test data",
+          "enum": ["overlapping_speech", "long_monologue", "silence_gaps"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "participants": {
+      "type": "array",
+      "description": "List of meeting participants",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "role"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the participant within this meeting",
+            "minLength": 1,
+            "maxLength": 100,
+            "pattern": "^[a-zA-Z0-9_-]+$"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name of the participant",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "role": {
+            "type": "string",
+            "description": "Role or title of the participant",
+            "minLength": 1,
+            "maxLength": 200
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "transcript": {
+      "type": "array",
+      "description": "Chronologically ordered list of transcript entries",
+      "minItems": 1,
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "required": ["speaker_id", "start_time", "end_time", "text"],
+        "properties": {
+          "speaker_id": {
+            "type": "string",
+            "description": "Reference to participant ID who spoke this segment",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "start_time": {
+            "type": "number",
+            "description": "Start time of speech segment in seconds from meeting start",
+            "minimum": 0
+          },
+          "end_time": {
+            "type": "number",
+            "description": "End time of speech segment in seconds from meeting start",
+            "minimum": 0
+          },
+          "text": {
+            "type": "string",
+            "description": "Transcribed text content of the speech segment",
+            "minLength": 1,
+            "maxLength": 10000
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": true
+}

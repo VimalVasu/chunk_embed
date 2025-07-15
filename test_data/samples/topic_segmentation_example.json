@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "Product Planning Meeting - Multi-Topic Discussion",
+    "duration_seconds": 240,
+    "participant_count": 3,
+    "meeting_id": "topic_seg_001",
+    "date": "2024-01-15T10:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Sarah Chen",
+      "role": "Product Manager"
+    },
+    {
+      "id": "speaker_2",
+      "name": "Mike Johnson",
+      "role": "Engineering Lead"
+    },
+    {
+      "id": "speaker_3",
+      "name": "Lisa Park",
+      "role": "UX Designer"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 8.5,
+      "text": "Let's start with our agenda today. We have three main topics: the user authentication redesign, the mobile app performance issues, and the upcoming Q2 feature roadmap."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 9.0,
+      "end_time": 18.3,
+      "text": "First, let's discuss the user authentication redesign. Mike, can you walk us through the technical requirements?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 18.8,
+      "end_time": 32.1,
+      "text": "Sure Sarah. For the authentication system, we need to implement OAuth 2.0 support, two-factor authentication, and improve password security requirements. The backend changes will take about three weeks."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 32.6,
+      "end_time": 45.9,
+      "text": "From a UX perspective, I've designed new flows for login, registration, and password reset. The key is making two-factor authentication feel seamless rather than cumbersome."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 46.4,
+      "end_time": 58.7,
+      "text": "Excellent progress on authentication. Now let's move to our second topic - the mobile app performance issues. Lisa, what have you discovered in user testing?"
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 59.2,
+      "end_time": 74.5,
+      "text": "Users are experiencing significant lag on older devices, especially during data synchronization. The app takes over ten seconds to load on devices that are more than two years old."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 75.0,
+      "end_time": 89.3,
+      "text": "I've identified the bottlenecks. We're loading too much data at startup and our image caching is inefficient. I propose we implement lazy loading and optimize our API calls."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 89.8,
+      "end_time": 103.1,
+      "text": "That sounds like a solid plan for performance optimization. What's the timeline for these mobile improvements?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 103.6,
+      "end_time": 115.9,
+      "text": "The performance optimizations should take about two weeks. We can run them parallel to the authentication work since they touch different parts of the system."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 116.4,
+      "end_time": 128.7,
+      "text": "Perfect. Now for our final topic - the Q2 feature roadmap. I want to discuss our priorities and resource allocation for the next quarter."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 129.2,
+      "end_time": 142.5,
+      "text": "We have three major features proposed: advanced analytics dashboard, team collaboration tools, and API integration marketplace. We need to decide which gets priority."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 143.0,
+      "end_time": 156.3,
+      "text": "Based on user feedback, the team collaboration tools would have the highest impact. Many customers have specifically requested better ways to share and collaborate on projects."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 156.8,
+      "end_time": 170.1,
+      "text": "From a technical standpoint, the API marketplace would be the most complex. It might require most of Q2 to implement properly. The analytics dashboard would be more manageable."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 170.6,
+      "end_time": 183.9,
+      "text": "Let's prioritize collaboration tools for early Q2, then analytics dashboard, and push the API marketplace to Q3. Does that timeline work for everyone?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 184.4,
+      "end_time": 192.7,
+      "text": "That sounds realistic. We can start planning the collaboration tools architecture while finishing the authentication and performance work."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 193.2,
+      "end_time": 205.5,
+      "text": "I'll begin user research for the collaboration features immediately. We should have initial prototypes ready for testing by the end of February."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 206.0,
+      "end_time": 218.3,
+      "text": "Great. Let's schedule weekly check-ins to monitor progress on all these initiatives. I'll send out calendar invites after this meeting."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 218.8,
+      "end_time": 230.1,
+      "text": "Before we wrap up, are there any questions or concerns about our plans for authentication, mobile performance, or the Q2 roadmap?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 230.6,
+      "end_time": 237.9,
+      "text": "No questions from me. I think we have clear action items and timelines for everything."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 238.4,
+      "end_time": 239.5,
+      "text": "All good here too."
+    }
+  ],
+  "topic_segments": [
+    {
+      "topic": "User Authentication Redesign",
+      "start_time": 9.0,
+      "end_time": 58.7,
+      "description": "Discussion of OAuth 2.0, two-factor authentication, password security, and UX design for login flows",
+      "key_decisions": [
+        "Implement OAuth 2.0 support",
+        "Add two-factor authentication",
+        "Backend changes estimated at 3 weeks"
+      ]
+    },
+    {
+      "topic": "Mobile App Performance Issues",
+      "start_time": 58.7,
+      "end_time": 115.9,
+      "description": "Analysis of performance problems on older devices, load times, and proposed technical solutions",
+      "key_decisions": [
+        "Implement lazy loading",
+        "Optimize API calls and image caching",
+        "Performance work estimated at 2 weeks"
+      ]
+    },
+    {
+      "topic": "Q2 Feature Roadmap Planning",
+      "start_time": 116.4,
+      "end_time": 237.9,
+      "description": "Prioritization of major features including analytics, collaboration tools, and API marketplace",
+      "key_decisions": [
+        "Prioritize collaboration tools for early Q2",
+        "Analytics dashboard for mid-Q2",
+        "API marketplace pushed to Q3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy this file to config.local.json and customize for your local environment",
+  "openai": {
+    "api_key": "sk-your-actual-api-key-here",
+    "batch_size": 10
+  },
+  "development": {
+    "debug": true,
+    "fast_mode": true,
+    "cache_embeddings": true
+  },
+  "logging": {
+    "level": "DEBUG"
+  }
+}

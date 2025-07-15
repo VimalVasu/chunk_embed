@@ -1,0 +1,32 @@
+{
+  "openai": {
+    "api_key": "your_openai_api_key_here",
+    "model": "text-embedding-ada-002",
+    "batch_size": 20,
+    "max_retries": 3,
+    "timeout": 30
+  },
+  "chromadb": {
+    "db_path": "./data/chroma_db",
+    "collection_name": "transcript_chunks",
+    "distance_metric": "cosine"
+  },
+  "chunking": {
+    "strategy": "fixed_window",
+    "window_size": 60,
+    "overlap_seconds": 5,
+    "min_chunk_length": 10
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "./logs/chunking_service.log",
+    "max_file_size": 10000000,
+    "backup_count": 5
+  },
+  "development": {
+    "environment": "development",
+    "debug": false,
+    "fast_mode": false,
+    "cache_embeddings": true
+  }
+}

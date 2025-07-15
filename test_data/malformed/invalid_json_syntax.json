@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Invalid JSON - Missing Closing Brace",
+    "duration_seconds": 60,
+    "participant_count": 1,
+    "meeting_id": "malformed_001"
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Test Speaker"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "This JSON file is missing a closing brace for metadata."
+    }
+  ]
+}

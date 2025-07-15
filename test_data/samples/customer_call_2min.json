@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Customer Support Call - Account Setup Issue",
+    "duration_seconds": 125,
+    "participant_count": 2,
+    "meeting_id": "support_001",
+    "date": "2024-01-15T13:45:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Emily Watson",
+      "role": "Customer Support Agent"
+    },
+    {
+      "id": "speaker_2",
+      "name": "Mark Anderson",
+      "role": "Customer"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 6.3,
+      "text": "Hi Mark, this is Emily from customer support. I understand you're having trouble setting up your new account?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 6.8,
+      "end_time": 15.2,
+      "text": "Yes, thank you for calling Emily. I completed the registration yesterday but I can't seem to access any of the dashboard features."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 15.7,
+      "end_time": 23.9,
+      "text": "I see the issue here. It looks like your account verification email bounced back because of a typo in your email address."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 24.4,
+      "end_time": 31.1,
+      "text": "Oh no, I probably mistyped it during registration. Can we fix that now?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 31.6,
+      "end_time": 40.8,
+      "text": "Absolutely. Can you please provide me with the correct email address? I'll update it in our system and resend the verification."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 41.3,
+      "end_time": 48.5,
+      "text": "Sure, it's mark dot anderson at gmail dot com. I think I had an extra 'n' in anderson before."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 49.0,
+      "end_time": 58.7,
+      "text": "Perfect, I've updated your email address and just sent a new verification email. You should receive it within the next few minutes."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 59.2,
+      "end_time": 65.4,
+      "text": "Great! Once I verify my email, will I have access to all the premium features I signed up for?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 65.9,
+      "end_time": 76.8,
+      "text": "Yes, your premium subscription is already active. After verification, you'll have immediate access to advanced analytics, integrations, and priority support."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 77.3,
+      "end_time": 84.6,
+      "text": "Excellent. Is there a getting started guide or tutorial I should follow for new users?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 85.1,
+      "end_time": 95.9,
+      "text": "Definitely! After you log in, you'll see a welcome tour that walks you through the main features. We also have video tutorials in our help center."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 96.4,
+      "end_time": 103.2,
+      "text": "That sounds perfect. What if I run into any other issues during the setup process?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 103.7,
+      "end_time": 113.5,
+      "text": "You can always reach out through our live chat feature or submit a support ticket. As a premium customer, you also have access to phone support."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 114.0,
+      "end_time": 120.8,
+      "text": "Thank you so much Emily. You've been incredibly helpful. I really appreciate the quick resolution."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 121.3,
+      "end_time": 124.2,
+      "text": "You're very welcome Mark. Enjoy using our platform!"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "title": "Technical Interview - Software Engineer Position",
+    "duration_seconds": 286,
+    "participant_count": 2,
+    "meeting_id": "interview_001",
+    "date": "2024-01-15T11:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Sarah Williams",
+      "role": "Senior Engineering Manager"
+    },
+    {
+      "id": "speaker_2",
+      "name": "Alex Kim",
+      "role": "Candidate"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 7.3,
+      "text": "Hi Alex, thank you for joining us today. I'm Sarah, and I'll be conducting your technical interview."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 7.8,
+      "end_time": 12.1,
+      "text": "Thank you Sarah. I'm excited to be here and discuss the software engineer position."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 12.6,
+      "end_time": 21.4,
+      "text": "Great. Let's start with a coding question. I'd like you to implement a function that finds the longest palindromic substring in a given string."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 22.0,
+      "end_time": 29.7,
+      "text": "Alright. To clarify, should I optimize for time complexity or space complexity? And are there any constraints on the input size?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 30.2,
+      "end_time": 37.8,
+      "text": "Good questions. Let's aim for reasonable time complexity, and assume the string length can be up to a thousand characters."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 38.4,
+      "end_time": 52.1,
+      "text": "Okay. I think I'll use the expand around centers approach. For each character and each pair of characters, I'll expand outward while the characters match, keeping track of the longest palindrome found."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 52.7,
+      "end_time": 57.9,
+      "text": "That sounds like a solid approach. Can you walk me through the time complexity?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 58.5,
+      "end_time": 71.2,
+      "text": "Sure. We have O(n) possible centers, and for each center we might expand up to O(n) characters in the worst case, so the overall time complexity would be O(n squared)."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 71.8,
+      "end_time": 79.4,
+      "text": "Excellent. Now let's move to a system design question. How would you design a URL shortening service like bit.ly?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 80.0,
+      "end_time": 91.6,
+      "text": "I'd start by understanding the requirements. We need to shorten URLs, redirect users to original URLs, and handle a large number of requests. Should I assume a specific scale?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 92.2,
+      "end_time": 99.8,
+      "text": "Let's say one hundred million URLs shortened per day, with a read to write ratio of about 100 to 1."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 100.4,
+      "end_time": 115.7,
+      "text": "Given that scale, I'd use a distributed system. For the core components, I'd have a URL encoding service, a database for mappings, a cache layer for popular URLs, and load balancers to distribute traffic."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 116.3,
+      "end_time": 127.9,
+      "text": "For the encoding algorithm, I might use base62 encoding with a counter or hash-based approach. The database could be partitioned by the short URL key for better performance."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 128.5,
+      "end_time": 136.2,
+      "text": "Good thinking. How would you handle the case where the same long URL is submitted multiple times?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 136.8,
+      "end_time": 149.4,
+      "text": "I could maintain a hash table mapping long URLs to short URLs. Before generating a new short URL, I'd check if the long URL already exists and return the existing short URL if it does."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 150.0,
+      "end_time": 158.7,
+      "text": "That's a great optimization. Now let's discuss your experience. Can you tell me about a challenging project you worked on recently?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 159.3,
+      "end_time": 174.8,
+      "text": "I recently led the migration of our monolithic application to microservices. The biggest challenge was maintaining data consistency across services while minimizing downtime during the transition."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 175.4,
+      "end_time": 189.1,
+      "text": "We implemented the strangler fig pattern, gradually extracting services while keeping the monolith running. We also used event sourcing to maintain data consistency and enable rollbacks if needed."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 189.7,
+      "end_time": 196.8,
+      "text": "That sounds like a complex project. How did you measure the success of the migration?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 197.4,
+      "end_time": 211.6,
+      "text": "We tracked several metrics: deployment frequency increased from weekly to daily, mean time to recovery improved by sixty percent, and we reduced our infrastructure costs by about twenty percent."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 212.2,
+      "end_time": 221.9,
+      "text": "Impressive results. Before we wrap up, do you have any questions about the role or our engineering culture?"
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 222.5,
+      "end_time": 235.3,
+      "text": "Yes, I'd love to know more about the team structure and how you approach technical decision making. Also, what opportunities are there for professional development?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 235.9,
+      "end_time": 251.4,
+      "text": "We work in cross-functional teams of about six people each. Technical decisions are made collaboratively with input from senior engineers. For professional development, we have a learning budget and encourage conference attendance."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 252.0,
+      "end_time": 262.6,
+      "text": "We also have internal tech talks, mentoring programs, and support for certifications. The company really values continuous learning and growth."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 263.2,
+      "end_time": 268.9,
+      "text": "That sounds fantastic. I really appreciate the collaborative approach and focus on learning."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 269.5,
+      "end_time": 279.8,
+      "text": "Great. Thank you for your time today, Alex. You did really well on the technical questions. We'll be in touch within the next few days with next steps."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 280.4,
+      "end_time": 285.7,
+      "text": "Thank you so much, Sarah. I enjoyed our conversation and look forward to hearing from you."
+    }
+  ]
+}

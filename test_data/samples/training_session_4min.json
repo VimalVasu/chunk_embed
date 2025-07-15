@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "Product Training Session - New Features",
+    "duration_seconds": 240,
+    "participant_count": 4,
+    "meeting_id": "training_001",
+    "date": "2024-01-15T16:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Jennifer Martinez",
+      "role": "Product Manager"
+    },
+    {
+      "id": "speaker_2",
+      "name": "David Thompson",
+      "role": "Sales Representative"
+    },
+    {
+      "id": "speaker_3",
+      "name": "Lisa Chang",
+      "role": "Customer Success Manager"
+    },
+    {
+      "id": "speaker_4",
+      "name": "Robert Johnson",
+      "role": "Marketing Specialist"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 0.0,
+      "end_time": 8.4,
+      "text": "Welcome everyone to today's training session on our new product features. We have some exciting updates to share with you."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 9.0,
+      "end_time": 18.7,
+      "text": "First, let's talk about the new dashboard analytics feature. This gives our customers real-time insights into their usage patterns."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 19.2,
+      "end_time": 26.8,
+      "text": "That sounds great Jennifer. How will this help us during sales conversations with prospects?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 27.3,
+      "end_time": 38.6,
+      "text": "Excellent question David. The analytics can show immediate value to prospects by demonstrating how they can optimize their workflows and reduce costs."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 39.1,
+      "end_time": 48.9,
+      "text": "From a customer success perspective, this will be incredibly helpful for our quarterly business reviews. We can show concrete ROI data."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 49.4,
+      "end_time": 59.2,
+      "text": "Exactly Lisa. Now, the second feature is our new integration marketplace. Customers can now connect with over fifty third-party applications."
+    },
+    {
+      "speaker_id": "speaker_4",
+      "start_time": 59.8,
+      "end_time": 68.5,
+      "text": "This is perfect timing. We've been getting lots of requests for Salesforce and HubSpot integrations in our marketing campaigns."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 69.0,
+      "end_time": 79.3,
+      "text": "Both of those are available Robert. The integrations are designed to be one-click setup with automatic data synchronization."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 79.9,
+      "end_time": 88.1,
+      "text": "What about the pricing for these integrations? Is it included in the base plan or are there additional costs?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 88.6,
+      "end_time": 98.4,
+      "text": "The first five integrations are included in all plans. Additional integrations are available at ten dollars per month each."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 99.0,
+      "end_time": 107.7,
+      "text": "That's very competitive pricing. I think our customers will appreciate the flexibility to choose only the integrations they need."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 108.2,
+      "end_time": 118.9,
+      "text": "The third major feature is enhanced mobile support. We've completely redesigned the mobile app with offline functionality."
+    },
+    {
+      "speaker_id": "speaker_4",
+      "start_time": 119.5,
+      "end_time": 128.3,
+      "text": "This addresses one of our biggest customer pain points. Mobile usage has been growing significantly in our user base."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 128.8,
+      "end_time": 137.6,
+      "text": "The offline functionality will be a huge selling point for our enterprise customers who travel frequently."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 138.1,
+      "end_time": 148.4,
+      "text": "Absolutely. Users can now access and edit their data even without internet connection, and everything syncs automatically when they're back online."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 149.0,
+      "end_time": 158.2,
+      "text": "When will these features be rolled out to existing customers? Should we start preparing our communication strategy?"
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 158.7,
+      "end_time": 168.9,
+      "text": "The rollout begins next week for our enterprise customers, followed by professional plans the week after, and basic plans by month end."
+    },
+    {
+      "speaker_id": "speaker_4",
+      "start_time": 169.4,
+      "end_time": 178.1,
+      "text": "I'll coordinate with the marketing team to prepare announcement materials and update our website content accordingly."
+    },
+    {
+      "speaker_id": "speaker_2",
+      "start_time": 178.7,
+      "end_time": 187.5,
+      "text": "I'd like to schedule some demo sessions with my key prospects who have been waiting for these features."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 188.0,
+      "end_time": 197.8,
+      "text": "That's a great idea David. I'll send everyone demo scripts and talking points after this session."
+    },
+    {
+      "speaker_id": "speaker_3",
+      "start_time": 198.3,
+      "end_time": 207.6,
+      "text": "Should we also prepare some case studies showing the benefits? I have a few customers who would be perfect examples."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 208.1,
+      "end_time": 217.9,
+      "text": "Definitely Lisa. Let's connect after this meeting to identify the best customer stories and start developing those case studies."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 218.5,
+      "end_time": 228.7,
+      "text": "Before we wrap up, are there any other questions about these new features or how they impact your respective roles?"
+    },
+    {
+      "speaker_id": "speaker_4",
+      "start_time": 229.3,
+      "end_time": 235.9,
+      "text": "This has been very helpful. I'm excited to start incorporating these updates into our messaging."
+    },
+    {
+      "speaker_id": "speaker_1",
+      "start_time": 236.4,
+      "end_time": 239.2,
+      "text": "Perfect. Thank you all for your time and great questions."
+    }
+  ]
+}

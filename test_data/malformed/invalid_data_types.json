@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Invalid Data Types",
+    "duration_seconds": "sixty_seconds",
+    "participant_count": "two",
+    "meeting_id": 12345,
+    "date": "2024-01-15T09:00:00Z",
+    "language": "en"
+  },
+  "participants": [
+    {
+      "id": "speaker_1",
+      "name": "Test Speaker",
+      "role": "Test Role"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker_id": "speaker_1",
+      "start_time": "zero",
+      "end_time": "five",
+      "text": "This file has string values where numbers are expected."
+    }
+  ]
+}
