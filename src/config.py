@@ -15,6 +15,8 @@ class OpenAIConfig(BaseModel):
     batch_size: int = Field(default=20, ge=1, le=100, description="Batch size for embeddings")
     max_retries: int = Field(default=3, ge=0, le=10, description="Maximum retry attempts")
     timeout: int = Field(default=30, ge=5, le=300, description="Request timeout in seconds")
+    rate_limit_requests: int = Field(default=60, ge=1, le=1000, description="Max requests per time window")
+    rate_limit_window: int = Field(default=60, ge=1, le=3600, description="Rate limit time window in seconds")
 
 
 class ChromaDBConfig(BaseModel):
@@ -31,9 +33,15 @@ class ChunkingConfig(BaseModel):
     strategy: Literal["fixed_window", "speaker_based"] = Field(
         default="fixed_window", description="Chunking strategy"
     )
+    # Fixed window chunking parameters
     window_size: int = Field(default=60, ge=10, le=600, description="Window size in seconds")
     overlap_seconds: int = Field(default=5, ge=0, le=30, description="Overlap between chunks")
     min_chunk_length: int = Field(default=10, ge=1, description="Minimum chunk length in characters")
+    
+    # Speaker-based chunking parameters
+    max_chunk_duration: int = Field(default=300, ge=10, le=3600, description="Maximum chunk duration in seconds")
+    speaker_change_threshold: float = Field(default=0.0, ge=0.0, description="Threshold for speaker change detection in seconds")
+    merge_consecutive_same_speaker: bool = Field(default=True, description="Merge consecutive segments from same speaker")
 
 
 class LoggingConfig(BaseModel):

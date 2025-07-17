@@ -15,7 +15,10 @@
     "strategy": "fixed_window",
     "window_size": 60,
     "overlap_seconds": 5,
-    "min_chunk_length": 10
+    "min_chunk_length": 10,
+    "max_chunk_duration": 300,
+    "speaker_change_threshold": 0.0,
+    "merge_consecutive_same_speaker": true
   },
   "logging": {
     "level": "INFO",

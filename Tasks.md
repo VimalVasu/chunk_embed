@@ -139,32 +139,32 @@ Implement simple chunking strategies for localhost testing.
      **Coverage**: Test ID uniqueness, deterministic generation, collision handling
      **Requirement**: Chunk ID tests must pass before proceeding to 4.3
 
-4.3. Implement fixed-window chunking with configurable parameters
+[x] 4.3. Implement fixed-window chunking with configurable parameters
      **Tests**: Add fixed-window chunking tests to `tests/test_chunker.py`
      **Coverage**: Test window sizes, overlaps, boundary conditions, edge cases
      **Requirement**: Fixed-window tests must pass before proceeding to 4.4
 
-4.4. Implement speaker-based chunking with configurable thresholds
+[x] 4.4. Implement speaker-based chunking with configurable thresholds
      **Tests**: Add speaker-based chunking tests to `tests/test_chunker.py`
      **Coverage**: Test speaker changes, thresholds, multi-speaker scenarios
      **Requirement**: Speaker-based tests must pass before proceeding to 4.5
 
-4.5. Create chunk data model with unique IDs and metadata
+[x] 4.5. Create chunk data model with unique IDs and metadata
      **Tests**: Add chunk data model tests to `tests/test_chunker.py`
      **Coverage**: Test data structure, metadata completeness, serialization
      **Requirement**: Chunk model tests must pass before proceeding to 4.6
 
-4.6. Add configurable chunking parameters via config file
+[x] 4.6. Add configurable chunking parameters via config file
      **Tests**: Add configuration integration tests to `tests/test_chunker.py`
      **Coverage**: Test parameter loading, validation, defaults, overrides
      **Requirement**: Configuration tests must pass before proceeding to 4.7
 
-4.7. Implement duplicate detection and prevention logic
+[x] 4.7. Implement duplicate detection and prevention logic
      **Tests**: Add duplicate detection tests to `tests/test_chunker.py`
      **Coverage**: Test duplicate identification, prevention, idempotency
      **Requirement**: Duplicate detection tests must pass before proceeding to 4.8
 
-4.8. Create comprehensive unit tests for all chunking strategies
+[x] 4.8. Create comprehensive unit tests for all chunking strategies
      **Tests**: Complete test coverage validation for `tests/test_chunker.py`
      **Coverage**: Achieve 95%+ code coverage for entire chunking module
      **Requirement**: Full test suite must pass before proceeding to Task 5
@@ -173,22 +173,22 @@ Implement simple chunking strategies for localhost testing.
 Implement OpenAI API integration for embeddings.
 
 ### Subtasks:
-5.1. Create `src/embedder.py` module
+[x] 5.1. Create `src/embedder.py` module
      **Tests**: Create `tests/test_embedder.py` with module structure tests
      **Coverage**: Test module imports, class definitions, interface design
      **Requirement**: Module structure tests must pass before proceeding to 5.2
 
-5.2. Implement OpenAI client setup with API key from `.env`
+[x] 5.2. Implement OpenAI client setup with API key from `.env`
      **Tests**: Add client setup tests to `tests/test_embedder.py`
      **Coverage**: Test API key loading, client initialization, configuration
      **Requirement**: Client setup tests must pass before proceeding to 5.3
 
-5.3. Add `text-embedding-ada-002` embedding generation
+[x] 5.3. Add `text-embedding-ada-002` embedding generation
      **Tests**: Add embedding generation tests with mocked OpenAI calls
      **Coverage**: Test successful embedding, input validation, output format
      **Requirement**: Embedding generation tests must pass before proceeding to 5.4
 
-5.4. Implement embedding versioning and model metadata tracking
+[x] 5.4. Implement embedding versioning and model metadata tracking
      **Tests**: Add versioning tests to `tests/test_embedder.py`
      **Coverage**: Test metadata creation, version tracking, model information
      **Requirement**: Versioning tests must pass before proceeding to 5.5
